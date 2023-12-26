@@ -18,37 +18,27 @@
 ## About
 MetaMedApp is a mobile application that allows users to purchase and redeem medicine through a convenient and easy-to-use platform. Using MetaMedApp, users can scan their prescription, select the desired medication, and pay for it using a credit card. Once the purchase is complete, a QR code is generated, which can be scanned at a vending machine to retrieve the medication. MetaMedApp was created by Selim Ellieh and Tony Kosseify as a part of a larger project for the "MetaMed" team participating in the WRO22 robotic competition's led by Charbel Daoud. The goal of MetaMedApp is to provide a convenient and efficient way for users to access and purchase their necessary medications.
 
-
 ## Key Features
 
-
 * Check Vending Machines<br/>
-
-  <img  height='528px' src="https://github.com/selimellieh72/MetaMed/blob/main/preview/map.png"/>
-  
+  ![Vending Machines Map](https://github.com/selimellieh72/MetaMed/blob/main/preview/map.png)
   - You can check all available nearby vending machines on the map!
-  
 
-* Scan Presciption<br/>
-
-  <img height="528px" src="https://github.com/selimellieh72/MetaMed/blob/main/preview/scan.png"/>
-  <img height="528px" src="https://github.com/selimellieh72/MetaMed/blob/main/preview/cam.png"/>
-  <img height="528px" src="https://github.com/selimellieh72/MetaMed/blob/main/preview/credit.png"/>
-  <img height="528px" src="https://github.com/selimellieh72/MetaMed/blob/main/preview/qr.png"/>
-  
-  - On the scan screen, you can scan your prescription by taking an image of it or choosing an existing image
-  - The app will then recognize needed medicines, through making an api call to [Google's Cloud Vision](https://cloud.google.com/vision/docs/ocr) 
-  - The user can then purchase the medicines on the app through his credit card
+* Scan Prescription<br/>
+  ![Scan Prescription](https://github.com/selimellieh72/MetaMed/blob/main/preview/scan.png)
+  ![Camera Interface](https://github.com/selimellieh72/MetaMed/blob/main/preview/cam.png)
+  ![Credit Card Payment](https://github.com/selimellieh72/MetaMed/blob/main/preview/credit.png)
+  ![QR Code](https://github.com/selimellieh72/MetaMed/blob/main/preview/qr.png)
+  - On the scan screen, you can scan your prescription by taking an image of it or choosing an existing image.
+  - The app will then recognize needed medicines, through making an api call to [Google's Cloud Vision](https://cloud.google.com/vision/docs/ocr).
+  - The user can then purchase the medicines on the app through his credit card.
   - After the purchase is complete, a QR-code will be generated that can be redeemed at the nearest vending machine!
- 
- 
-* Transcripts Screen<br/>
 
-  <img height="528px" src="https://github.com/selimellieh72/MetaMed/blob/main/preview/transcripts.png"/>
-  
-  - On the transcripts screen, you can access all your purchased medicines history
-  - You can also access all your previously generated QR-codes
- 
+* Transcripts Screen<br/>
+  ![Transcripts Screen](https://github.com/selimellieh72/MetaMed/blob/main/preview/transcripts.png)
+  - On the transcripts screen, you can access all your purchased medicines history.
+  - You can also access all your previously generated QR-codes.
+
 
 ## How To Use
 
